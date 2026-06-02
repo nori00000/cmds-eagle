@@ -1,5 +1,10 @@
 # CMDS Eagle
 
+> **한눈에 / At a glance**  
+> Forked Obsidian plugin connecting Eagle asset libraries with notes, embeds, uploads, and path sync.  
+> 자세한 한영 프로젝트 설명, 검색 키워드, 저작권 범위: [PROJECT.md](./PROJECT.md) · [NOTICE.md](./NOTICE.md)
+
+
 Obsidian plugin to connect [Eagle](https://eagle.cool) asset library with your vault.
 
 
