@@ -1821,6 +1821,7 @@ var CMDSPACELinkEagle = class extends import_obsidian4.Plugin {
     this.addSettingTab(new CMDSPACEEagleSettingTab(this.app, this));
     this.registerMarkdownPostProcessor((el, ctx) => {
       this.processEagleLinks(el);
+      this.processFileUrls(el);
     });
     this.registerEvent(
       this.app.workspace.on("active-leaf-change", () => {

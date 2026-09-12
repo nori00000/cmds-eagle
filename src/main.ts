@@ -111,6 +111,7 @@ export default class CMDSPACELinkEagle extends Plugin {
 
 		this.registerMarkdownPostProcessor((el, ctx) => {
 			this.processEagleLinks(el);
+			this.processFileUrls(el);
 		});
 
 		this.registerEvent(
